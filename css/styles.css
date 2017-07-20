@@ -13,6 +13,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: #fff;
+    overflow:hidden;
 }
 ::selection {
 	color: #fff;
