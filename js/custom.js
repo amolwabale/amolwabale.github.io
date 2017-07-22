@@ -145,6 +145,14 @@ $('document').ready(function () {
 			textSize: 54,
 			textColor: '#1a1a1a'
 		});
+		$('#diagram-id-4').diagram({
+		    size: "190",
+		    borderWidth: "10",
+		    bgFill: "#95a5a6",
+		    frFill: "#985632",
+		    textSize: 54,
+		    textColor: '#1a1a1a'
+		});
 		$(window).load(function() { 
 			  $('#filter .current').trigger('click');
 		});

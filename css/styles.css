@@ -2,6 +2,11 @@
 Theme Name: ME – Resume and Personal Portfolio Responsive Template
 Author URI: http://webthemez.com/ 
 */
+
+.freebirdFormviewerViewFormBanner , .freebirdHeaderMast
+{
+    display:none !important;
+}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 * {
 	margin: 0;

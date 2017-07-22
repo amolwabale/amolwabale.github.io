@@ -5,6 +5,9 @@ var Index = new function () {
         
         var winHt = $(window).height();
         $(".BannerImage").height(winHt);
+
+        
+        $(".freebirdFormviewerViewFormBanner").css({ "display": "none" });
     }
 }
 $(document).ready(Index.Ready);
