@@ -2,6 +2,15 @@
 Theme Name: ME – Resume and Personal Portfolio Responsive Template
 Author URI: http://webthemez.com/ 
 */
+.loadingText
+{
+    display:block;
+    vertical-align:middle;
+    text-align:justify;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
 .loading {
     width:100%;
     height:100%;
@@ -9,6 +18,8 @@ Author URI: http://webthemez.com/
     background-image: url('../images/loading1.gif');
     background-repeat: no-repeat;
     background-position: center;
+    text-align:center;
+    vertical-align:middle;
 }
 
 .freebirdFormviewerViewFormBanner, .freebirdHeaderMast {
