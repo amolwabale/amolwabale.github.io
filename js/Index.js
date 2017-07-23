@@ -7,6 +7,8 @@ var Index = new function () {
         var winHt = $(window).height();
         $(".BannerImage").height(winHt);
 
+        $("#portfolio").height(winHt);
+
         if(self.Release == true)
         {
             $("#debug").css({ "display": "none" })
