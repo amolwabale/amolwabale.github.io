@@ -70,7 +70,7 @@ var customScripts = {
 				if(!$('#main-nav ul li:first-child').hasClass('active')){
 					$('.header').addClass('addBg');					
 				}else{
-						$('.header').removeClass('addBg');
+						//$('.header').removeClass('addBg');
 				}
 				
             },
@@ -79,7 +79,7 @@ var customScripts = {
 				if(!$('#main-nav ul li:first-child').hasClass('active')){
 					$('.header').addClass('addBg');
 				}else{
-						$('.header').removeClass('addBg');
+						//$('.header').removeClass('addBg');
 				}
             }
         });

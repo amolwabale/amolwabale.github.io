@@ -2,6 +2,11 @@
 Theme Name: ME – Resume and Personal Portfolio Responsive Template
 Author URI: http://webthemez.com/ 
 */
+article
+{
+    border:1px solid #ddd;
+    padding:10px;
+}
 .loadingText
 {
     top:55% !important;
@@ -771,9 +776,9 @@ h2 {
     margin-bottom: 30px;
 }
 
-#portfolio {
+/*#portfolio {
     background: #000;
-}
+}*/
 
     #portfolio img {
         width: 100%;
@@ -1021,9 +1026,9 @@ footer {
     margin: 0px 5px;
 }
 
-#portfolio {
+/*#portfolio {
     background: url(../images/bg2.png) top repeat;
-}
+}*/
 
 #contactUs {
 }
