@@ -1,6 +1,6 @@
 var Index = new function () {
     var self = this;
-    this.Release = true;
+    this.Release = false;
 
     this.Ready = function () {
         
@@ -16,8 +16,8 @@ var Index = new function () {
         }
         else
         {
-            $("#release").css({ "display": "none" })
             $("#release").remove();
+            $(".loadingText").text("Profile closed by Author")
         }
     }
 }
