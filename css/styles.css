@@ -543,6 +543,7 @@ h2 {
 .bg-parlex {
     padding-top: 0px;
     background-size: cover;
+    background: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
