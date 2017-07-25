@@ -1,6 +1,6 @@
 var Index = new function () {
     var self = this;
-    this.Release = true;
+    this.Release = false;
 
     this.Ready = function () {
         
