@@ -476,14 +476,11 @@ $(document).on('click', '#goto_box_1', function (e) {
         dynamic: true,
 		thumbnail: false,
 		hash:false,
-		autoplay:true,		
+		autoplay:false,		
         dynamicEl: [{
-            "poster": 'img/gallery1.jpg',
-			"html":'#video1',
-            'subHtml': '<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
-        }, {
-            'src': 'img/gallery2.jpg',
-            'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
+            "poster": 'img/AdayInMyLife2.png',
+			"html":'<div></div>',
+            'subHtml': ''
         }]
     })
  
